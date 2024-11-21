@@ -1,18 +1,26 @@
 
 body {
-    background-color: lightsteelblue;
+    background-color: lightblue;
 }
 .container {
     width: calc(200px * 4 + 3em);
     margin: auto;
+    background-color: lightgrey;
+    border: dotted;
 }
 
 #outputArea {
     columns: 4;
     column-gap: 1em;
+    
 }
 
 .items {
-    margin-bottom: 1em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
 }
+
 
